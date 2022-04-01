@@ -2,7 +2,7 @@ import { Box, Heading } from "@chakra-ui/react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import Link from "next/link"
 import {
   Stack,
   Flex,
@@ -39,12 +39,12 @@ export default function Home() {
       </Stack>
       <Break />
       <Center py={6}>
-        <Card />
-        <Card />
+        <Card id="1"/>
+        <Card id="2"/>
       </Center>
       <Center py={6}>
-        <Card />
-        <Card />
+        <Card id="3"/>
+        <Card id="4"/>
       </Center>
       <Break />
       <Box bg="green.400">
@@ -65,25 +65,48 @@ export default function Home() {
         </Stack>
         <Break />
         <Center py={6}>
+          <Link href="https://www.sierraclub.org"><a>
+
           <Donation
+          img="https://www.sierraclub.org/sites/www.sierraclub.org/files/default_images/Large-Default-PullThru-03.png"
             heading="Sierra Club"
             text="
 Sierra is an organization fighting for change for our dependency on fossil fuels, preserving habitats and offering wildness treks to people across the US. They run multiple campaigns for specific causes like passing the Outdoors for All Act- expanding equitable access to the outdoors."
           />
+          </a>
+          </Link>
+          <Link href="https://oceanconservancy.org/">
+          <a>
+
           <Donation
+            img="https://upload.wikimedia.org/wikipedia/commons/b/b0/OC_Wiki_SVG.svg"
             heading="Ocean Conservancy"
             text="Ocean conservancy is an organization working to protect the oceans and its diverse biodiversity. Their current mission is to protect manatees from deadly threats such as entanglement in marine debris."
           />
+          </a>
+          </Link>
         </Center>
         <Center py={6}>
+          <Link href="https://www.climateemergencyfund.org/">
+          <a>
+
           <Donation
+          img="https://givingcompass.org/wp-content/uploads/2021/11/ad9cb30a-4a88-11ec-a3c6-02074da7a271.png"
             heading="Climate Emergency"
             text="Climate Emergency Fund is an organization supporting activists and protests for transformative climate change-related changes. They provide backing to the climate movement as to inspire systemic change."
           />
+          </a>
+          </Link>
+          <Link href="https://www.fidra.org.uk">
+          <a>
+
           <Donation
+          img="https://www.fidra.org.uk/wp-content/uploads/home-bk1.jpg"
             heading="Fidra"
             text="Fidra is an organization based in the UK working on reducing plastic waste and chemical pollution in our environment. It runs multiple campaigns, targeting different problems such as microplastics in our ocean."
           />
+          </a>
+          </Link>
         </Center>
         <Break />
       </Box>
