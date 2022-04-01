@@ -18,6 +18,7 @@ export default function Hero() {
               as={"span"}
               position={"relative"}
               _after={{
+                content: "''",
                 width: "full",
                 height: useBreakpointValue({ base: "20%", md: "30%" }),
                 position: "absolute",
@@ -35,7 +36,7 @@ export default function Hero() {
             </Text>{" "}
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-            The project board is an exclusive resource for contract work. It's
+            The project board is an exclusive resource for contract work. Its
             perfect for freelancers, agencies, and moonlighters.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
