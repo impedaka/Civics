@@ -45,12 +45,12 @@ const Card = (props) => {
       </Stack>
       <Stack mt={6} direction={"row"} spacing={4} align={"center"}>
         <Avatar
-          src={"https://avatars0.githubusercontent.com/u/1164541?v=4"}
+          src={props.img}
           alt={"Author"}
         />
         <Stack direction={"column"} spacing={0} fontSize={"sm"}>
-          <Text fontWeight={600}>Achim Rolle</Text>
-          <Text color={"gray.500"}>Feb 08, 2021 · 6min read</Text>
+          <Text fontWeight={600}>{props.name}</Text>
+          <Text color={"gray.500"}>{props.desc}</Text>
         </Stack>
       </Stack>
       </a>
