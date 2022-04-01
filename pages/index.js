@@ -19,12 +19,17 @@ import Footer from "../components/footer";
 import Hero from "../components/Hero";
 import Donation from "../components/donation";
 import Break from "../components/Break";
+import Section from "../components/section";
 
 export default function Home() {
   return (
-    <>
-      <Hero />
+    <><Section delay={0.1}>
+<Hero/>
+
+    </Section>
+      
       <Break />
+      <Section delay={0.3}>
       <Stack
         mt={20}
         spacing={4}
@@ -46,7 +51,10 @@ export default function Home() {
         <Card id="3"  desc="Feb 09, 2022 · 6min read"name="Alice" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-3.png?raw=true"/>
         <Card id="4"  desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
       </Center>
+      </Section>
       <Break />
+      <Section delay="0.3">
+
       <Box bg="green.400">
         <Stack
           mt={20}
@@ -107,10 +115,9 @@ Sierra is an organization fighting for change for our dependency on fossil fuels
           />
           </a>
           </Link>
-        </Center>
+        </Center></Box>
+      </Section>
         <Break />
-      </Box>
-      <Footer />
     </>
   );
 }

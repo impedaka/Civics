@@ -58,8 +58,7 @@ export default function Hero() {
         <Image
           alt={"Login Image"}
           objectFit={"cover"}
-          src={
-            "https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-green-fresh-world-environment-day-psd-material-image_192979.jpg"
+          src={"https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-green-fresh-world-environment-day-psd-material-image_192979.jpg"
           }
         />
       </Flex>
