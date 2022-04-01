@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Text, Heading, Avatar } from "@chakra-ui/react";
-const Donation = () => {
+const Donation = (props) => {
   return (
     <Box
       maxW={"445px"}
@@ -20,24 +20,13 @@ const Donation = () => {
         />
       </Box>
       <Stack>
-        <Text
-          color={"green.500"}
-          textTransform={"uppercase"}
-          fontWeight={800}
-          fontSize={"sm"}
-          letterSpacing={1.1}
-        >
-          Blog
+        <Text color={"black"} size="xl">
+          {props.heading}
         </Text>
         <Heading color={"grey.700"} fontSize={"2xl"} fontFamily={"body"}>
           Boost your conversion rate
         </Heading>
-        <Text color={"gray.500"}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum.
-        </Text>
+        <Text color={"gray.500"}>{props.text}</Text>
       </Stack>
     </Box>
   );
