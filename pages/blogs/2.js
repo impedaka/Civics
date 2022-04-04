@@ -1,11 +1,11 @@
-import { Container, Heading, VStack, Text, OrderedList, ListIcon, ListItem } from '@chakra-ui/react'
-import { Head } from 'next/document'
+import { Container, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 const blog2 = () => {
   return (
   <Container maxW="container.md" p={14}>
     <VStack>
+      hii
     </VStack>
   </Container>
   )
