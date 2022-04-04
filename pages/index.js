@@ -44,8 +44,8 @@ export default function Home() {
       </Stack>
       <Break />
       <Center py={6}>
-        <Card id="1" desc="Jan 08, 2022 · 4min read" name="John" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
-        <Card id="2"  desc="March 12, 2022 · 5min read"name="Jane" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
+        <Card id="1" desc="Jan 08, 2022 · 4min read" name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
+        <Card id="2"  desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
       </Center>
       <Center py={6}>
         <Card id="3"  desc="Feb 09, 2022 · 6min read"name="Alice" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-3.png?raw=true"/>
