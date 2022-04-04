@@ -44,11 +44,11 @@ export default function Home() {
       </Stack>
       <Break />
       <Center py={6}>
-        <Card id="1" title="Climate Change" info="Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth\’s local, regional, and global climates." desc="Jan 08, 2022 · 4min read" name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
+        <Card id="1" title="Climate Change" info="Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth’s local, regional, and global climates." desc="Jan 08, 2022 · 4min read" name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
         <Card id="2"  title="" info="" desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
       </Center>
       <Center py={6}>
-        <Card id="3" title="" info="" desc="Feb 09, 2022 · 6min read"name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
+        <Card id="3" title="" info="" desc="Feb 09, 2022 · 6min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
         <Card id="4"  title="Melting Ice Caps: A Global Emergency" info="As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. " desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
       </Center>
       </Section>
@@ -115,9 +115,12 @@ Sierra is an organization fighting for change for our dependency on fossil fuels
           />
           </a>
           </Link>
-        </Center></Box>
-      </Section>
+        </Center>
+        
+        
         <Break />
+        </Box>
+      </Section>
     </>
   );
 }

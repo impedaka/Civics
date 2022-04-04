@@ -56,7 +56,7 @@ export default function WithSubnavigation() {
 size={"md"}
             
             color={useColorModeValue('gray.800', 'white')}>
-            Logo
+            Logoipsum
           </Heading>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
