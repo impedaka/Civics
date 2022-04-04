@@ -49,7 +49,7 @@ export default function Home() {
       </Center>
       <Center py={6}>
         <Card id="3" title="" info="" desc="Feb 09, 2022 · 6min read"name="Alice" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-3.png?raw=true"/>
-        <Card id="4"  title="" info="" desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
+        <Card id="4"  title="Melting Ice Caps: A Global Emergency" info="" desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
       </Center>
       </Section>
       <Break />
