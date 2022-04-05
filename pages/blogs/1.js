@@ -3,7 +3,7 @@ import { AspectRatio, List, ListItem, OrderedList, UnorderedList, Image, Contain
 import NextLink from "next/link";
 import React from "react";
 import ReactPlayer from "react-player";
-import Author from "../../components/author";
+import Author from "../../components/Author";
 import Break from "../../components/Break";
 
 const Better = () => {
