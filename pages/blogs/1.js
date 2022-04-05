@@ -3,6 +3,7 @@ import { AspectRatio, List, ListItem, OrderedList, UnorderedList, Image, Contain
 import NextLink from "next/link";
 import React from "react";
 import ReactPlayer from "react-player";
+import Author from "../../components/author";
 import Break from "../../components/Break";
 
 const Better = () => {
@@ -10,7 +11,7 @@ return <Container maxW="container.md" pt={14}>
 <VStack align="start" >
   <Break/>
 <Heading size="xl">Climate Change</Heading>
-  
+ <Author name="Joseph" date={new Date('2021-04-06T19:01:27Z')}/> 
   <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/958826350381248562/960598120398467082/unknown.png?width=1072&height=603"} alt={"a"} mb={4} />
   <Heading align="left" size="md">Information</Heading>
     <Text>

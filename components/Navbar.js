@@ -221,18 +221,18 @@ const MobileNavItem = ({ label, children, href } ) => {
 const NAV_ITEMS = [
   {
     label: 'Home',
-    href: '/'
+    href: '/#home'
   },
   {
     label: 'Blogs',
-    href: "/"
+    href: "/#blogs"
   },
   {
     label: 'Charities',
-    href: '/',
+    href: '/#charities',
   },
   {
     label: 'Contact',
-    href: '/',
+    href: '/#contact',
   },
 ];

@@ -23,14 +23,18 @@ import Section from "../components/section";
 
 export default function Home() {
   return (
-    <><Section delay={0.1}>
-<Hero/>
+    <>
+    
+    <Section delay={0.1}>
+<Box id="home"></Box>
+<Hero />
 
     </Section>
       
       <Break />
+        <Box id="blogs"></Box>
       <Section delay={0.3}>
-      <Stack
+      <Stack 
         mt={20}
         spacing={4}
         as={Container}
@@ -44,18 +48,19 @@ export default function Home() {
       </Stack>
       <Break />
       <Center py={6}>
-        <Card id="1" title="Climate Change" info="Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth’s local, regional, and global climates." desc="Jan 08, 2022 · 4min read" name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
-        <Card id="2"  title="" info="" desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
+        <Card id="1" image="https://media.discordapp.net/attachments/958826350381248562/960598120398467082/unknown.png?width=1072&height=603" title="Climate Change" info="Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth’s local, regional, and global climates." desc="Jan 08, 2022 · 4min read" name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
+        <Card id="2" image="" title="" info="" desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
       </Center>
       <Center py={6}>
-        <Card id="3" title="" info="" desc="Feb 09, 2022 · 6min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
-        <Card id="4"  title="Melting Ice Caps: A Global Emergency" info="As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. " desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
+        <Card id="3" image="" title="" info="" desc="Feb 09, 2022 · 6min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
+        <Card id="4" image="https://media.discordapp.net/attachments/634834381927743498/959513107720437790/IMG_9156.webp?width=719&height=479" title="Melting Ice Caps: A Global Emergency" info="As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. " desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
       </Center>
       </Section>
       <Break />
       <Section delay="0.3">
 
       <Box bg="green.400">
+        
         <Stack
           mt={20}
           spacing={4}
@@ -63,6 +68,7 @@ export default function Home() {
           maxW={"3xl"}
           textAlign={"center"}
         >
+                            <Box id="charities"></Box>
           <Break />
           <Heading fontSize={"6xl"} color={"white"}>
             GIVE.
