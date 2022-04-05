@@ -7,14 +7,14 @@ const blog3 = () => {
   return (
   <Container maxW="container.md" pt={14}>
     <Break/>
-    <VStack align="start">
+    <VStack align="start" spacing={3}>
       <Heading>
         7 simple ways to make a change
       </Heading>
        
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513192080506930/IMG_9157.webp"} alt={"a"} mb={4} />
 
-      <br/>
+
       <OrderedList>
         <ListItem>
           Bike and walk more. Drive less. Transportation accounts for 28% of Canada&apos;s production of greenhouse gases. Windsor has built many bike lanes and public buses pass by every 30mins.
@@ -38,7 +38,7 @@ Shop sustainable. Bring reusable shopping bags and purchase less plastic. Choose
           Donate. Your generous donation to environmental organizations allocates them more ressources to further their progress!
         </ListItem>
           
-          <Break/>
+
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513241216757780/IMG_9158.jpg?width=719&height=479"} alt={"a"} mb={4} />
       </OrderedList>
  
