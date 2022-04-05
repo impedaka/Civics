@@ -3,6 +3,7 @@ import {
   Flex,
   Heading,
   Image,
+  Link,
   Stack,
   Text,
   useBreakpointValue,
@@ -48,9 +49,14 @@ export default function Hero() {
                 bg: "green.500",
               }}
             >
+              <Link href="/#charities">
               Support Us
+              </Link>
+            
             </Button>
-            <Button rounded={"full"}>How It Works</Button>
+            <Button rounded={"full"}><Link href="/#blogs">
+            Learn More
+            </Link></Button>
           </Stack>
         </Stack>
       </Flex>
