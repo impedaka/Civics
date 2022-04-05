@@ -45,10 +45,10 @@ export default function Home() {
       <Break />
       <Center py={6}>
         <Card id="1" title="Climate Change" info="Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth’s local, regional, and global climates." desc="Jan 08, 2022 · 4min read" name="Joseph" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-1.png?raw=true"/>
-        <Card id="2"  title="" info="" desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
+        <Card id="2"  title="Air Pollution" info="Air pollution affects our health, the environment, building structure and the economy. Natural sources of air pollution include forest fires, volcanoes, and emissions of volatile organic compounds from vegetation." desc="March 12, 2022 · 5min read"name="Samreen" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/>
       </Center>
       <Center py={6}>
-        <Card id="3" title="" info="" desc="Feb 09, 2022 · 6min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
+        <Card id="3" title="7 Ways To Make Change" info=" Bike and walk more. Drive less. Transportation accounts for 28% of Canada&apos;s production of greenhouse gases. Windsor has built many bike lanes and public buses pass by every 30mins." desc="Feb 09, 2022 · 6min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
         <Card id="4"  title="Melting Ice Caps: A Global Emergency" info="As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. " desc="Feb 02, 2022 · 5min read"name="Linda" img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
       </Center>
       </Section>
@@ -107,7 +107,6 @@ Sierra is an organization fighting for change for our dependency on fossil fuels
           </Link>
           <Link href="https://www.fidra.org.uk">
           <a>
-
           <Donation
           img="https://www.fidra.org.uk/wp-content/uploads/home-bk1.jpg"
             heading="Fidra"
@@ -116,7 +115,6 @@ Sierra is an organization fighting for change for our dependency on fossil fuels
           </a>
           </Link>
         </Center>
-        
         
         <Break />
         </Box>
