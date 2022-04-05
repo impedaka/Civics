@@ -8,7 +8,7 @@ import Break from "../../components/Break";
 
 const Better = () => {
 return <Container maxW="container.md" pt={14}>
-<VStack align="start" spacing={3} >
+<VStack align="start" spacing={5} >
   <Break/>
 <Heading size="xl">Climate Change</Heading>
  <Author name="Joseph" date={new Date('2021-04-06T19:01:27Z')}/> 

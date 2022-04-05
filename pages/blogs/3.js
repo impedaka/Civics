@@ -3,16 +3,18 @@ import React from 'react'
 import { Link, Image, Container, Heading, VStack, Text, OrderedList, ListIcon, ListItem, Breadcrumb } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Break from '../../components/Break'
+import Author from '../../components/Author'
 const blog3 = () => {
   return (
   <Container maxW="container.md" pt={14}>
     <Break/>
-    <VStack align="start" spacing={3}>
+    <VStack align="start" spacing={5}>
       <Heading>
         7 simple ways to make a change
       </Heading>
        
-        <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513192080506930/IMG_9157.webp"} alt={"a"} mb={4} />
+ <Author name="Linda" date={new Date('2021-04-06T19:01:27Z')}/> 
+        <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/960952107408719902/IMG_9211.webp"} alt={"a"} mb={4} />
 
 
       <OrderedList>
@@ -39,9 +41,8 @@ Shop sustainable. Bring reusable shopping bags and purchase less plastic. Choose
         </ListItem>
           
 
-        <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513241216757780/IMG_9158.jpg?width=719&height=479"} alt={"a"} mb={4} />
       </OrderedList>
- 
+<br/> 
 
       <Heading size="md">Sources</Heading>
       
