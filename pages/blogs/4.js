@@ -45,7 +45,7 @@ The melting of glaciers in the poles lead to higher sea levels, and this increas
       Currect State Sea Ice Cover <ExternalLinkIcon mx='2px' />
       </Link>
   
-      <Break/>
+
     </VStack>
   </Container>
   )
