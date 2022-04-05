@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Author from "../../components/author";
+import Author from "../../components/Author";
 import { Link, Image, Container, Heading, VStack, Text, OrderedList, ListIcon, ListItem, Breadcrumb } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import Break from '../../components/Break'
