@@ -15,7 +15,7 @@ const blog2 = () => {
 Air pollution affects our health, the environment, building structure and the economy. Natural sources of air pollution include forest fires, volcanoes, and emissions of volatile organic compounds from vegetation. However, human activities cause more air pollution. Approximately 65% of the air pollution is caused by humans such as transportation, off-road vehicles and mobile activities, electrical utilities, industrial processes such as oil and gas production. Air pollution kills an estimated seven million people worldwide every year. The World Health Organization shows that most of the global population (99%) breathe air that has elevated levels of pollutants. Ambient air pollution causes an estimate of 4.2 million deaths per year due to strokes, heart diseases, lung cancer and acute and chronic respiratory diseases. 
       
       </Text>
-
+<Break/>
            <Heading size="md">How To Make A Change</Heading>
       <Text>
 
