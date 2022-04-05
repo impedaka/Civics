@@ -17,6 +17,7 @@ const blog4 = () => {
       
       </Text>
       <br/>
+          <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513241216757780/IMG_9158.jpg?width=719&height=479"} alt={"a"} mb={4} />
       <Text>
 
 The melting of glaciers in the poles lead to higher sea levels, and this increase in liquid water on our Earth is thoroughly detrimental. It causes temperatures to rise even further, and can cause flooding when the land level is low enough. If this pattern continues into the far future, much of our current lands will be submerged in water.
@@ -29,7 +30,7 @@ The melting of glaciers in the poles lead to higher sea levels, and this increas
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513192080506930/IMG_9157.webp"} alt={"a"} mb={4} />
       
           <Break/>
-        <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513241216757780/IMG_9158.jpg?width=719&height=479"} alt={"a"} mb={4} />
+        
       <Heading size="md">Sources</Heading>
 
       <Link color='green.500'href="https://www.worldatlas.com/articles/the-biggest-environmental-issues-in-canada.html">
