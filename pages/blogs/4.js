@@ -28,7 +28,7 @@ The melting of glaciers in the poles lead to higher sea levels, and this increas
       <Text>
         This phenomenon harshly impacts Canada, as our northern country&apos;s permafrost has been thawing at unprecedented rates. This permafrost makes up much of our northern territories, and it&apos;s melting takes away habitat for arctic animals such as snow owls. These animals have increasingly been found interacting with humans, as they are forced to move southward to find habitable land. Not only are land animals impacted, all oceanic lifeforms are harmed by this problem. A problem we caused.
       </Text>
-      <Break/>
+
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513192080506930/IMG_9157.webp"} alt={"a"} mb={4} />
    
         
@@ -46,7 +46,7 @@ The melting of glaciers in the poles lead to higher sea levels, and this increas
 
       Currect State Sea Ice Cover <ExternalLinkIcon mx='2px' />
       </Link>
-  
+  <Break/>
 
     </VStack>
   </Container>
