@@ -11,13 +11,14 @@ const blog2 = () => {
       </Heading>
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513107720437790/IMG_9156.webp?width=719&height=479"} alt={"a"} mb={4} />
       <Text>
-        As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. While some ice cap melting during the warmer months of the year is part of Earth&apos;s natural processes, the record losses of ice over the past 10 years is more than concerning.
+Air pollution affects our health, the environment, building structure and the economy. Natural sources of air pollution include forest fires, volcanoes, and emissions of volatile organic compounds from vegetation. However, human activities cause more air pollution. Approximately 65% of the air pollution is caused by humans such as transportation, off-road vehicles and mobile activities, electrical utilities, industrial processes such as oil and gas production. Air pollution kills an estimated seven million people worldwide every year. The World Health Organization shows that most of the global population (99%) breathe air that has elevated levels of pollutants. Ambient air pollution causes an estimate of 4.2 million deaths per year due to strokes, heart diseases, lung cancer and acute and chronic respiratory diseases. 
       
       </Text>
       <br/>
+           <Heading size="md">How To Make A Change</Heading>
       <Text>
 
-The melting of glaciers in the poles lead to higher sea levels, and this increase in liquid water on our Earth is thoroughly detrimental. It causes temperatures to rise even further, and can cause flooding when the land level is low enough. If this pattern continues into the far future, much of our current lands will be submerged in water.
+We can still reduce pollution in the air by using public transportation, bikes, or walking whenever possible. Driving your car less or whenever necessary. Planting trees and plants is a great way to care for the Earth. Use the recycle, reduce and reuse method before throwing out trash. Turning off lights when not in use. These are small actions we can take to reduce pollution and keep our country and earth a clean place.  
       </Text>
       <br/>
       <Text>
