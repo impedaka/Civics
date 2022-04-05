@@ -8,7 +8,7 @@ import Break from "../../components/Break";
 
 const Better = () => {
 return <Container maxW="container.md" pt={14}>
-<VStack align="start" >
+<VStack align="start" spacing={3} >
   <Break/>
 <Heading size="xl">Climate Change</Heading>
  <Author name="Joseph" date={new Date('2021-04-06T19:01:27Z')}/> 
@@ -17,14 +17,14 @@ return <Container maxW="container.md" pt={14}>
     <Text>
     Climate Change is defined as long-term shifts in average temperatures and weather patterns for Earth&apos;s local, regional, and global climates. These climactic changes seen throughout the planet since the 1800s have proven the undeniable fact that the main driver in rising climate change is us, primarily our excessive use of fossil fuels. Fossil-fuel burning like coal, oil, and gas increase heat-trapping greenhouse emissions in Earth&apos;s atmosphere, trapping the sun&apos;s heat and raising Earth&apos;s average surface temperature. Examples of greenhouse gas emissions that are causing climate change include carbon dioxide and methane. These harmful emissions come from using gasoline to drive a car or using coal to heat a building. Cutting down and clearing land and forests can also release carbon dioxide. &apos;Landfills for garbage are a major source of methane emissions.&apos; (&apos;What Is Climate Change? | United Nations&apos;) Energy, industry, transport, buildings, agriculture, and land use are among the main emitters of carbon dioxide and methane. Climate data records provide indisputable evidence of climate change indicators, such as land and ocean temperature increasing around the world; rising sea levels; ice loss at Earth&apos;ss poles and in mountain glaciers; frequency and severity changes in extreme weather such as hurricanes, heatwaves, wildfires, droughts, floods and precipitation; and cloud and vegetation cover changes.  
   </Text>
-  <Break/>
+
        
   <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/958826350381248562/960598120767574097/unknown.png"} alt={"a"} mb={4} />
      <Heading size="md">How we plan to make a positive change</Heading>
   <Text>
     We can reduce our carbon footprint by taking a few simple and easy steps: Make energy conservation a part of our daily routine and our decisions as a consumer. When we shop for new appliances like refrigerators, washers, and dryers, look for products with the government&apos;s ENERGY STAR® label; they meet a higher standard for energy efficiency than the minimum federal requirements. When we buy a car, look for one with the highest gas mileage and lowest emissions, or buy an electric car. We can also reduce our emissions by taking public transportation or carpooling when possible.  
   </Text>
-  <br/>
+
 <Text>Other ways you can make a positiive change to the environment are by:</Text>
 <UnorderedList>
   <ListItem>
@@ -59,7 +59,7 @@ return <Container maxW="container.md" pt={14}>
     Donating clothes and other unused items to people in need. 
   </ListItem>
 </UnorderedList>
-<Break/>
+
   <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/958826350381248562/960598121031798844/unknown.png?width=846&height=603"} alt={"a"} mb={4} />
   <Heading size="md">How can others get involved in saving the planet?</Heading>
   <Text>We can save Earth from climate change by:</Text>
@@ -80,7 +80,7 @@ Growing a community garden
 Volunteering with wildlife rescue and rehabilitation programs
     </ListItem>
   </UnorderedList>
-  <Break/>
+
     <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/958826350381248562/960598237314687016/unknown.png"} alt={"a"} mb={4} />
   <Heading size="md">Links to other important sites for more information:</Heading>
   <OrderedList>
@@ -129,7 +129,7 @@ Volunteering with wildlife rescue and rehabilitation programs
     </ListItem>
   </OrderedList>
 </VStack>
-<br/>
+
     <ReactPlayer url="https://www.youtube.com/watch?v=G4H1N_yXBiA"/>
 <Break/>
 </Container>
