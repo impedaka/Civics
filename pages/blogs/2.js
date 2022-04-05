@@ -1,6 +1,6 @@
 import { Link, Image, Container, Heading, VStack, Text, OrderedList, ListIcon, ListItem, Breadcrumb } from '@chakra-ui/react'
 import React from 'react'
-
+import Break from "../../components/Break";
 const blog2 = () => {
   return (
   <Container maxW="container.md" pt={14}>
