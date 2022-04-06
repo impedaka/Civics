@@ -37,8 +37,7 @@ export default function Hero() {
             </Text>{" "}
           </Heading>
           <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-            The project board is an exclusive resource for contract work. Its
-            perfect for freelancers, agencies, and moonlighters.
+            Our collective efforts can make a change. You can join the movement today.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
             <Button
