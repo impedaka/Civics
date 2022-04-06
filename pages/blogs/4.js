@@ -12,7 +12,7 @@ const blog4 = () => {
       <Heading>
         Melting Ice Caps: A Global Emergency
       </Heading>
-    <Author name="Linda" date={new Date('2021-04-06T19:01:27Z')}/>
+    <Author name="Linda" date={new Date('2021-04-06T19:01:27Z')}  img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/>
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/959513107720437790/IMG_9156.webp?width=719&height=479"} alt={"a"} mb={4} />
       <Text>
         As we are all aware, global temperatures are increasing at an alarming rate. This increase has lead to more ice melting, year after year. While some ice cap melting during the warmer months of the year is part of Earth&apos;s natural processes, the record losses of ice over the past 10 years is more than concerning.
