@@ -12,7 +12,7 @@ const blog2 = () => {
         Air Pollution
       </Heading>
       
- <Author name="Samreen" date={new Date('2021-04-06T19:01:27Z')}/> 
+ <Author name="Samreen" date={new Date('2021-04-06T19:01:27Z')} img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-2.png?raw=true"/> 
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/958826350381248562/960947886986776596/IMG_2187.jpg"} alt={"a"} mb={4} />
       <Text>
 Air pollution affects our health, the environment, building structure and the economy. Natural sources of air pollution include forest fires, volcanoes, and emissions of volatile organic compounds from vegetation. However, human activities cause more air pollution. Approximately 65% of the air pollution is caused by humans such as transportation, off-road vehicles and mobile activities, electrical utilities, industrial processes such as oil and gas production. Air pollution kills an estimated seven million people worldwide every year. The World Health Organization shows that most of the global population (99%) breathe air that has elevated levels of pollutants. Ambient air pollution causes an estimate of 4.2 million deaths per year due to strokes, heart diseases, lung cancer and acute and chronic respiratory diseases. 
