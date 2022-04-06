@@ -13,7 +13,7 @@ const blog3 = () => {
         7 simple ways to make a change
       </Heading>
        
- <Author name="Linda" date={new Date('2021-04-06T19:01:27Z')}/> 
+ <Author name="Linda" date={new Date('2021-04-06T19:01:27Z')}  img="https://github.com/impedaka/helloSign/blob/main/Frontend/src/pages/Assets/Avatars%20Default%20with%20Backdrop-4.png?raw=true"/> 
         <Image borderRadius="lg" w="full" src={"https://media.discordapp.net/attachments/634834381927743498/960952107408719902/IMG_9211.webp"} alt={"a"} mb={4} />
 
 
